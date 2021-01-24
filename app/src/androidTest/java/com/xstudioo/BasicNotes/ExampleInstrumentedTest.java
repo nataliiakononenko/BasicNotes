@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.xstudioo.simpledatabasedemo", appContext.getPackageName());
+        assertEquals("com.xstudioo.basicnotes", appContext.getPackageName());
     }
 }
