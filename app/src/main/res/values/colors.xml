@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4F99CF</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#4F99CF</color>
+    <color name="frameColour">#F7FCFF</color>
+    <color name="focusedFrameColour">#b3e3ff</color>
+    <color name="white">#ffffff</color>
+</resources>
