@@ -46,6 +46,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        noItemText.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, AddNote.class);
+                startActivity(i);
+            }
+        });
+
         if(allNotes.isEmpty()){
             noItemText.setVisibility(View.VISIBLE);
         }else {
